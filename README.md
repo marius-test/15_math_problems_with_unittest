@@ -1,4 +1,4 @@
-# 15 Basic Python Programs w/ **unittesting**
+# 15 Basic Python Programs w/ **unittest**
 
 1. The maximum of two numbers
 2. The simple interest

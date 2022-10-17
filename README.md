@@ -1,6 +1,6 @@
 # 15 Basic Python Programs w/ **unittest**
 
-1. The maximum of two numbers
+1. The largest of two numbers
 2. The simple interest
 3. The compound interest
 4. The prime numbers in an interval

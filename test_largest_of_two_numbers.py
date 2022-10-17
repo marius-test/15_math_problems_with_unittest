@@ -16,7 +16,7 @@ class TestLargest(unittest.TestCase):
         self.assertEqual(largest(-65, 7), 7)
         
     def test_a_equals_b(self):
-        self.assertAlmostEqual(largest(10, 10), expected_message_for_equal_numbers)
+        self.assertEqual(largest(10, 10), expected_message_for_equal_numbers)
 
 
 if __name__ == '__main__':

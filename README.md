@@ -16,4 +16,4 @@
 14. The palindrome check for binary representation
 15. The sum of odd factors of a number
 
-## **Work in progress**
+## **!!WORK_IN_PROGRESS!!**

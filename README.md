@@ -1,4 +1,4 @@
-# 15 Basic Python Programs w/ **unittest**
+# 15_basic_python_programs_w_unittest 
 
 1. The largest of two numbers
 2. The simple interest
@@ -16,4 +16,4 @@
 14. The palindrome check for binary representation
 15. The sum of odd factors of a number
 
-## Work in progress...
+## This project is in progress...

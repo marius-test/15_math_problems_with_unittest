@@ -1,6 +1,3 @@
-import math
-
-
 # function definition
 def compound_interest(p, r, t):
     print(f"The principal is ${p}.")

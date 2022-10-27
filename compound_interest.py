@@ -1,10 +1,14 @@
+import math
+
+
 # function definition
-def simple_interest(p, r, t):
+def compound_interest(p, r, t):
     print(f"The principal is ${p}.")
     print(f"The rate is {r}% per year.")
     print(f"The time period is {t} years.")
-    print(f"The amount earned is ${(p * r * t)/100}")
-    return (p * r * t)/100
+    a = round((p * (1 + r/100) ** t), 2)
+    print(f"The amount earned is ${a}")
+    return a
     
     
 # this will not be run when the module is imported
@@ -15,4 +19,5 @@ if __name__ == '__main__':
     t = 2
     
     # function call
-    simple_interest(p, r, t)
+    compound_interest(p, r, t)
+    

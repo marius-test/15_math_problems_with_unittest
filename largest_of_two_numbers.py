@@ -3,7 +3,7 @@ def largest(a, b):
     if a > b:
         return a
     elif a == b:
-        return "The two numbers are equal"
+        return "The numbers are equal"
     else:
         return b
     

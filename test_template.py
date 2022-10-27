@@ -1,5 +1,3 @@
-# importing is a way of using code from another python module than the current one
-# a module is a python file
 import unittest
 from template import function
 

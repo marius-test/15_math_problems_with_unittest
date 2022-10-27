@@ -1,5 +1,5 @@
 import unittest
-from simple_interest import simple_interest
+from compound_interest import compound_interest
 
 
 # variables
@@ -9,9 +9,9 @@ t = 5
 
 
 # unittest documentation at https://docs.python.org/3/library/unittest.html#module-unittest
-class TestSimpleInterest(unittest.TestCase):
-    def test_simple_interest(self):
-        self.assertEqual(simple_interest(p, r, t), 437.5)
+class TestCompoundInterest(unittest.TestCase):
+    def test_compound_interest(self):
+        self.assertEqual(compound_interest(p, r, t), 2969.22)
 
 
 if __name__ == '__main__':

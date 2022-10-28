@@ -1,7 +1,23 @@
-def prime_numbers():
-     
-    a, b, i, j, flag = 0, 0, 0, 0, 0
- 
+def prime_numbers(a, b):
+    i, j, prime = 0, 0, 0
+    list_ = []
+
+    for i in range(a, b + 1):
+        if i == 1:
+            continue
+
+        prime = 1
+        for j in range(2, i // 2 + 1):
+            if i % j == 0:
+                prime = 0
+                break
+
+        if prime == 1:
+            list_.append(i)
+            print(i, end=" ")
+    return list_
+
+if __name__ == '__main__':
     print("Enter lower bound of the interval: ", end="")
     a = int(input())
     print(a)
@@ -11,20 +27,5 @@ def prime_numbers():
     print(b)
 
     print("Prime numbers between", a, "and", b, "are: ", end="")
- 
-    for i in range(a, b + 1):
-        if i == 1:
-            continue
- 
-        flag = 1
-        for j in range(2, i // 2 + 1):
-            if i % j == 0:
-                flag = 0
-                break
-
-        if flag == 1:
-            print(i, end=" ")
-
-
-if __name__ == '__main__':
-    prime_numbers()
+    
+    prime_numbers(a, b)

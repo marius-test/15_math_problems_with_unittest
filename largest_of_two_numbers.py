@@ -1,4 +1,3 @@
-# function definition
 def largest(a, b):
     if a > b:
         return a
@@ -8,11 +7,8 @@ def largest(a, b):
         return b
     
 
-# this will not be run when the module is imported
 if __name__ == '__main__':
-    # input
     a = 7
     b = 59
     
-    # function call
     print(largest(a, b))

@@ -4,7 +4,7 @@
 2. The simple interest
 3. The compound interest
 4. The prime numbers in an interval
-5. The aea of a circle
+5. The area of a circle
 6. The n-th Fibonacci number
 7. The Fibonacci number check
 8. The sum of squares of first n natural numbers

@@ -17,6 +17,7 @@ def prime_numbers(a, b):
             print(i, end=" ")
     return list_
 
+
 if __name__ == '__main__':
     print("Enter lower bound of the interval: ", end="")
     a = int(input())

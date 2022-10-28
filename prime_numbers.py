@@ -1,20 +1,21 @@
 def prime_numbers(a, b):
-    i, j, prime = 0, 0, 0
+    i, j = 0, 0
     list_ = []
 
     for i in range(a, b + 1):
         if i == 1:
             continue
 
-        prime = 1
+        prime = True
         for j in range(2, i // 2 + 1):
             if i % j == 0:
-                prime = 0
+                prime = False
                 break
 
-        if prime == 1:
+        if prime == True:
             list_.append(i)
             print(i, end=" ")
+            
     return list_
 
 

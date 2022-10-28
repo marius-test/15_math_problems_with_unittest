@@ -2,7 +2,8 @@ from largest_of_two_numbers import largest
 import unittest
 
 
-# unittest documentation at https://docs.python.org/3/library/unittest.html#module-unittest
+# unittest documentation at
+# https://docs.python.org/3/library/unittest.html#module-unittest
 class TestLargest(unittest.TestCase):
     def test_a_is_larger(self):
         self.assertEqual(largest(95, 23), 95)

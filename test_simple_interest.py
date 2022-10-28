@@ -8,7 +8,8 @@ r = 3.5
 t = 5
 
 
-# unittest documentation at https://docs.python.org/3/library/unittest.html#module-unittest
+# unittest documentation at 
+# # https://docs.python.org/3/library/unittest.html#module-unittest
 class TestSimpleInterest(unittest.TestCase):
     def test_simple_interest(self):
         self.assertEqual(simple_interest(p, r, t), 437.5)

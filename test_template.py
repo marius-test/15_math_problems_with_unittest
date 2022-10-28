@@ -7,7 +7,8 @@ a = 1
 b = 2
 
 
-# unittest documentation at https://docs.python.org/3/library/unittest.html#module-unittest
+# unittest documentation at
+# https://docs.python.org/3/library/unittest.html#module-unittest
 class TestName(unittest.TestCase):
     def test_a(self):
         self.assertEqual(function(1, 1), 2)

@@ -8,7 +8,8 @@ r = 3.5
 t = 5
 
 
-# unittest documentation at https://docs.python.org/3/library/unittest.html#module-unittest
+# unittest documentation at
+# https://docs.python.org/3/library/unittest.html#module-unittest
 class TestCompoundInterest(unittest.TestCase):
     def test_compound_interest(self):
         self.assertEqual(compound_interest(p, r, t), 2969.22)

@@ -1,19 +1,19 @@
 # 15_basic_python_programs_w_unittest
 
-1. The largest of two numbers
-2. The simple interest
-3. The compound interest
-4. The prime numbers in an interval
-5. The area of a circle
-6. The n-th Fibonacci number
-7. The Fibonacci number check
-8. The sum of squares of first n natural numbers
-9. The cube sum of first n numbers
-10. The sum of the array
-11. The minimum sum of factors
-12. The triangle of positive area is possible with given angles
-13. The minimum sum of factors of number
-14. The palindrome check for binary representation
-15. The sum of odd factors of a number
+- The largest of two numbers
+- The simple interest
+- The compound interest
+- The prime numbers in an interval
+- The area of a circle
+- The n-th Fibonacci number
+- The Fibonacci number check
+- The sum of squares of first n natural numbers
+- The cube sum of first n numbers
+- The sum of the array
+- The minimum sum of factors
+- The triangle of positive area is possible with given angles
+- The minimum sum of factors of number
+- The palindrome check for binary representation
+- The sum of odd factors of a number
 
 ## This project is in progress...

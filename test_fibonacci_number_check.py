@@ -2,7 +2,7 @@ import unittest
 from fibonacci_number_check import fibonacci
 
 
-class FibonacciNumberCheck(unittest.TestCase):
+class TestFibonacciNumberCheck(unittest.TestCase):
     def test_is_fibonacci(self):
         n = 1
         self.assertEqual(fibonacci(1), f"{n} is a Fibonacci number!")

@@ -7,12 +7,12 @@
 - The area of a circle
 - The n-th Fibonacci number
 - The Fibonacci number check
-- The result of squares of first n natural numbers
-- The cube result of first n numbers
-- The result of the array
-- The minimum result of factors
-- The triangle of positive area is possible with given angles
-- The minimum result of factors of number
+- The sum of the squares of the first n natural numbers
+- The sum of the cubes of the first n natural numbers
+- The sum of the array
+- The minimum sum of factors
+- The triangle of positive area possible with given angles
+- The minimum sum of factors of number
 - The palindrome check for binary representation
 - The result of odd factors of a number
 

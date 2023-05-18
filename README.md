@@ -10,9 +10,9 @@
 - The sum of the squares of the first n natural numbers
 - The sum of the cubes of the first n natural numbers
 - The sum of the array
-- The minimum sum of factors
+- The sum of divisors
 - The triangle of positive area possible with given angles
-- The minimum sum of factors of number
+- The difference between the squared sum of the first n natural numbers and the sum of squared first n natural numbers
 - The palindrome check for binary representation
 - The result of odd factors of a number
 

@@ -7,7 +7,7 @@ def sum_divisors(n):
 
 
 if __name__ == '__main__':
-    n = 3
+    n = 4
     print(sum_divisors(n))
     n = 18
     print(sum_divisors(n))

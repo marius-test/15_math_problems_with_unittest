@@ -2,7 +2,7 @@ def nth_fibonacci_number(n):
     a = 0
     b = 1
     if n < 0:
-        print("Wrong number... try again")
+        print("Please input a positive number.")
     elif n == 0:
         return a
     elif n == 1:

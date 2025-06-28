@@ -1,6 +1,6 @@
 # 15_math_problems_with_unittest
 
-This project contains 15 small Python programs solving classic math problems, each accompanied by a corresponding **unit test** using the `unittest` framework.
+This project contains 15 small Python programs solving classic math problems, each accompanied by a corresponding **unit test** using Python's `unittest` framework.
 
 ### Included Programs
 
